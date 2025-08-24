@@ -1,53 +1,151 @@
-<button>Hamid</button>
-<button>Rad</button>
-<p>Walk in London</p>
-<a href="https://www.youtube.com/watch?v=ruYXxjMOQqw" target="_blank">My YouTube channel</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Practice Buttons</title>
+  <style>
+    .button {
+      display: inline-block;
+      padding: 8px 18px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: background-color .15s, color .15s;
+      margin: 6px;
+    }
 
-
-<style>
     .subscribe-button {
-        background-color: rgb(188, 17, 17);
-        color : white;
-        border: none;
-        height: 36px;
-        width: 100;
-        border-radius: 2px;
-        cursor: pointer;
-margin-right: 8px;
+      background-color: rgb(188, 17, 17);
+      color: white;
+      border: none;
+      height: 36px;
+      width: 100px;
+      border-radius: 2px;
+      cursor: pointer;
+      margin-right: 8px;
     }
+
     .join-button {
-        background-color: white;
-        border-color: rgb(3, 122, 212);
-        border-style: solid;
-        border-width: 1px;
-        color : rgb(3, 122, 212);
-        height: 36px;
-        width: 60px;
-        border-radius: 2px;
-        cursor: pointer;
-
+      background-color: white;
+      color: rgb(3, 122, 212);
+      border: 1px solid rgb(3, 122, 212);
+      height: 36px;
+      width: 60px;
+      border-radius: 2px;
+      cursor: pointer;
+      margin-right: 8px;
     }
+
     .tweet-button {
-        background-color: rgb(0, 0, 255);
-        color: white;
-        border: none;
-        height: 36px;
-        width: 70px;
-        font-weight: bold;
-        font-size: 15px;
-        border-radius: 35px;
-        margin-left: 8px;
-        cursor: pointer;
+      background-color: rgb(0, 0, 255);
+      color: white;
+      border: none;
+      height: 36px;
+      width: 70px;
+      font-weight: bold;
+      border-radius: 35px;
+      cursor: pointer;
     }
-</style>
-<button class="subscribe-button">
-  subscribe  
-</button>
- <button class="join-button">
-Join
-</button>
-<button class="Tweet-button">
-    Tweet
-</button>
 
+    .button-uber {
+      background: #3aab55;
+      color: #fff;
+      border: none;
+    }
+    .button-uber:hover {
+      background: #309548;
+    }
+
+    .button-amazon {
+      background: #111;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 10px 20px;
+    }
+    .button-amazon:hover {
+      background: #000;
+    }
+
+    .button-github {
+      background: #f7c325;
+      color: #000;
+      border: none;
+      border-radius: 20px;
+      padding: 10px 24px;
+    }
+    .button-github:hover {
+      background: #e6b71f;
+    }
+
+    .button-bootstrap-primary {
+      background: #6f42c1;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 16px;
+    }
+    .button-bootstrap-primary:hover {
+      background: #5a32a3;
+    }
+
+    .button-bootstrap-secondary {
+      background: #f8f9fa;
+      color: #212529;
+      border: 1px solid #cfd1d4;
+      border-radius: 4px;
+      padding: 8px 16px;
+    }
+    .button-bootstrap-secondary:hover {
+      background: #e2e6ea;
+    }
+
+    .button-linkedin-primary {
+      background: #0a66c2;
+      color: #fff;
+      border: none;
+      border-radius: 20px;
+      padding: 10px 24px;
+    }
+    .button-linkedin-primary:hover {
+      background: #004182;
+    }
+
+    .button-linkedin-secondary {
+      background: #fff;
+      color: #0a66c2;
+      border: 1px solid #0a66c2;
+      border-radius: 20px;
+      padding: 10px 24px;
+    }
+    .button-linkedin-secondary:hover {
+      background: #eef3f8;
+    }
+  </style>
+</head>
+<body>
+  <h2>First Practice</h2>
+  <button class="subscribe-button">Subscribe</button>
+  <button class="join-button">Join</button>
+  <button class="tweet-button">Tweet</button>
+  <p>Walking in New York</p>
+  <a href="https://www.youtube.com/watch?v=1fH8WXPcItQ" target="_blank">My Youtube channel</a>
+
+  <hr>
+
+  <h2>Second Practice</h2>
+  <p>Uber <button class="button button-uber">Sign up</button></p>
+  <p>Amazon <button class="button button-amazon">Request now</button></p>
+  <p>GitHub <button class="button button-github">Add to Cart</button></p>
+  <p>Bootstrap 
+    <button class="button button-bootstrap-primary">Get started</button>
+    <button class="button button-bootstrap-secondary">Download</button>
+  </p>
+  <p>LinkedIn 
+    <button class="button button-linkedin-primary">Apply on company website</button>
+    <button class="button button-linkedin-secondary">Save</button>
+  </p>
+</body>
+</html>
 
