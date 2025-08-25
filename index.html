@@ -122,6 +122,28 @@
     .button-linkedin-secondary:hover {
       background: #eef3f8;
     }
+    .button-uber {
+  background-color: #3aab55;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color .2s, transform .1s;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.6);
+}
+
+.button-uber:hover {
+  background-color: #2f8f46;
+}
+
+.button-uber:active {
+  background-color: #267239;
+  transform: scale(0.96);
+}
   </style>
 </head>
 <body>
@@ -146,6 +168,7 @@
     <button class="button button-linkedin-primary">Apply on company website</button>
     <button class="button button-linkedin-secondary">Save</button>
   </p>
+  <p>Uber <button class="button-uber">BUY NOW</button></p>
 </body>
 </html>
 
